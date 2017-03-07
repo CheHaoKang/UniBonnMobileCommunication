@@ -1,0 +1,196 @@
+{
+  "systemTime": 1466548982,
+  "timeSinceStartup": 467949860,
+  "neighbors": [
+    {
+      "ipAddress": "10.0.0.5",
+      "symmetric": true,
+      "multiPointRelay": true,
+      "multiPointRelaySelector": false,
+      "willingness": 3,
+      "twoHopNeighborCount": 3
+    },
+    {
+      "ipAddress": "10.0.0.3",
+      "symmetric": true,
+      "multiPointRelay": true,
+      "multiPointRelaySelector": false,
+      "willingness": 3,
+      "twoHopNeighborCount": 3
+    }
+  ],
+  "links": [
+    {
+      "localIP": "10.0.0.4",
+      "remoteIP": "10.0.0.5",
+      "validityTime": 39608,
+      "linkQuality": 1.000,
+      "neighborLinkQuality": 1.000,
+      "linkCost": 1024
+    },
+    {
+      "localIP": "10.0.0.4",
+      "remoteIP": "10.0.0.3",
+      "validityTime": 38171,
+      "linkQuality": 1.000,
+      "neighborLinkQuality": 1.000,
+      "linkCost": 1024
+    }
+  ],
+  "routes": [
+    {
+      "destination": "10.0.0.1",
+      "genmask": 32,
+      "gateway": "10.0.0.3",
+      "metric": 3,
+      "rtpMetricCost": 3072,
+      "networkInterface": "mesh0"
+    },
+    {
+      "destination": "10.0.0.2",
+      "genmask": 32,
+      "gateway": "10.0.0.3",
+      "metric": 2,
+      "rtpMetricCost": 2048,
+      "networkInterface": "mesh0"
+    },
+    {
+      "destination": "10.0.0.3",
+      "genmask": 32,
+      "gateway": "10.0.0.3",
+      "metric": 1,
+      "rtpMetricCost": 1024,
+      "networkInterface": "mesh0"
+    },
+    {
+      "destination": "10.0.0.5",
+      "genmask": 32,
+      "gateway": "10.0.0.5",
+      "metric": 1,
+      "rtpMetricCost": 1024,
+      "networkInterface": "mesh0"
+    },
+    {
+      "destination": "10.0.0.6",
+      "genmask": 32,
+      "gateway": "10.0.0.5",
+      "metric": 2,
+      "rtpMetricCost": 2048,
+      "networkInterface": "mesh0"
+    }
+  ],
+  "topology": [
+    {
+      "destinationIP": "10.0.0.2",
+      "lastHopIP": "10.0.0.1",
+      "linkQuality": 1.000,
+      "neighborLinkQuality": 1.000,
+      "tcEdgeCost": 1024,
+      "validityTime": 282869
+    },
+    {
+      "destinationIP": "10.0.0.1",
+      "lastHopIP": "10.0.0.2",
+      "linkQuality": 1.000,
+      "neighborLinkQuality": 1.000,
+      "tcEdgeCost": 1024,
+      "validityTime": 280780
+    },
+    {
+      "destinationIP": "10.0.0.3",
+      "lastHopIP": "10.0.0.2",
+      "linkQuality": 1.000,
+      "neighborLinkQuality": 1.000,
+      "tcEdgeCost": 1024,
+      "validityTime": 280780
+    },
+    {
+      "destinationIP": "10.0.0.2",
+      "lastHopIP": "10.0.0.3",
+      "linkQuality": 1.000,
+      "neighborLinkQuality": 1.000,
+      "tcEdgeCost": 1024,
+      "validityTime": 284404
+    },
+    {
+      "destinationIP": "10.0.0.4",
+      "lastHopIP": "10.0.0.3",
+      "linkQuality": 0.886,
+      "neighborLinkQuality": 1.000,
+      "tcEdgeCost": 1155,
+      "validityTime": 284404
+    },
+    {
+      "destinationIP": "10.0.0.5",
+      "lastHopIP": "10.0.0.3",
+      "linkQuality": 0.831,
+      "neighborLinkQuality": 0.886,
+      "tcEdgeCost": 1389,
+      "validityTime": 284404
+    },
+    {
+      "destinationIP": "10.0.0.6",
+      "lastHopIP": "10.0.0.3",
+      "linkQuality": 0.886,
+      "neighborLinkQuality": 0.521,
+      "tcEdgeCost": 2215,
+      "validityTime": 284404
+    },
+    {
+      "destinationIP": "10.0.0.3",
+      "lastHopIP": "10.0.0.4",
+      "linkQuality": 1.000,
+      "neighborLinkQuality": 1.000,
+      "tcEdgeCost": 1024,
+      "validityTime": 0
+    },
+    {
+      "destinationIP": "10.0.0.5",
+      "lastHopIP": "10.0.0.4",
+      "linkQuality": 1.000,
+      "neighborLinkQuality": 1.000,
+      "tcEdgeCost": 1024,
+      "validityTime": 0
+    },
+    {
+      "destinationIP": "10.0.0.3",
+      "lastHopIP": "10.0.0.5",
+      "linkQuality": 0.894,
+      "neighborLinkQuality": 0.831,
+      "tcEdgeCost": 1377,
+      "validityTime": 276967
+    },
+    {
+      "destinationIP": "10.0.0.4",
+      "lastHopIP": "10.0.0.5",
+      "linkQuality": 1.000,
+      "neighborLinkQuality": 1.000,
+      "tcEdgeCost": 1024,
+      "validityTime": 276967
+    },
+    {
+      "destinationIP": "10.0.0.6",
+      "lastHopIP": "10.0.0.5",
+      "linkQuality": 1.000,
+      "neighborLinkQuality": 1.000,
+      "tcEdgeCost": 1024,
+      "validityTime": 276967
+    },
+    {
+      "destinationIP": "10.0.0.3",
+      "lastHopIP": "10.0.0.6",
+      "linkQuality": 0.521,
+      "neighborLinkQuality": 0.886,
+      "tcEdgeCost": 2215,
+      "validityTime": 268705
+    },
+    {
+      "destinationIP": "10.0.0.5",
+      "lastHopIP": "10.0.0.6",
+      "linkQuality": 1.000,
+      "neighborLinkQuality": 0.937,
+      "tcEdgeCost": 1092,
+      "validityTime": 268705
+    }
+  ]
+}
